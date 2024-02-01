@@ -1,0 +1,68 @@
+:root{
+  --text-primary-color: rgb(3, 3, 3);
+  --icon-search-color: rgb(3, 3, 3);
+  --btn-color-text: rgb(0, 87, 187);
+  --bg-btn-color: rgb(241, 236, 236);
+}
+
+.dark{
+  --text-primary-color: rgb(241, 236, 236);
+  --icon-search-color: rgb(3, 3, 3);
+  --btn-color-text: rgb(208, 228, 252);
+  --bg-btn-color: rgb(0, 87, 187);
+}
+
+.loader {
+    position: relative;
+    width: 64px;
+    height: 64px;
+    background-color: rgba(0, 0, 0, 0.5);
+    transform: rotate(45deg);
+    overflow: hidden;
+  }
+  .loader:after{
+    content: '';
+    position: absolute;
+    inset: 8px;
+    margin: auto;
+    background: #222b32;
+  }
+  .loader:before{
+    content: '';
+    position: absolute;
+    inset: -15px;
+    margin: auto;
+    background: #de3500;
+    animation: diamondLoader 2s linear infinite;
+  }
+  @keyframes diamondLoader {
+    0%  ,10% {
+      transform: translate(-64px , -64px) rotate(-45deg)
+    }
+    90% , 100% {
+      transform: translate(0px , 0px) rotate(-45deg)
+    }
+  }
+
+  .mainContainer{
+    color: var(--text-primary-color);
+  }
+
+  .searchIcon{
+    color: var(--icon-search-color);
+  }
+
+  .inputForm{
+    box-sizing: border-box;
+    outline: none;
+  }
+
+.btnChange{
+  /* border: 2px solid green; */
+  color: var(--btn-color-text);
+  background: var(--bg-btn-color);
+}
+
+.btnChange:hover{
+    scale: 1.1;  
+}

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Lato&family=Oswald&family=Poppins:ital@1&family=Roboto:wght@300;400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+img, svg {
+    width: 100%;
+}
+
+.cieloDespejado{
+    background-image: url("/cieloDespejado.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.lluviafondo{
+    background-image: url("/lluviafondo.jpg");
+    background-size: cover;
+    background-position: center;    
+}
+
+.pocasNubes{
+    background-image: url("/pocasNubes.jpg");
+    background-size: cover;
+    background-position: center;    
+}
+
+.nubesDispersas{
+    background-image: url("/nubesDispersas.jpg");
+    background-size: cover;
+    background-position: center;    
+}
+
+.rayos{
+    background-image: url("/rayos.jpg");
+    background-size: cover;
+    background-position: center;    
+}
+
+.aguacero{
+    background-image: url("/aguacero.jpg");
+    background-size: cover;
+    background-position: center;    
+}
+
+.tormenta{
+    background-image: url("/tormenta.jpg");
+    background-size: cover;
+    background-position: center;    
+}
+
+.snow{
+    background-image: url("/snow.jpg");
+    background-size: cover;
+    background-position: center;    
+}
+
+.mist{
+    background-image: url("/nubesRotas.jpg");
+    background-size: cover;
+    background-position: center;    
+}
+
